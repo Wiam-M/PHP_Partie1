@@ -10,7 +10,8 @@
     <h1>Exercice 1 : Créez une variable et lui affecter une chaîne de caractères. Afficher cette variable.</h1>
     <?php
     $String = "En PHP, les variables sont représentées par un signe dollar '$' suivi du nom de la variable. Le nom est sensible à la casse.";
-    echo $String
+    //echo $String
     ?>
+     <h2> <?= $String?> </h2>
 </body>
 </html>

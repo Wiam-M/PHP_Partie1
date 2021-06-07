@@ -12,8 +12,8 @@
     function displayMajorOrMinor($age){
         //var_dump retourne les informations structurées d'une variable, y compris son type et sa valeur
         // var_dump($age);
-        if($age < 0 || $age >150){
-            echo "Vous êtes peut etre pas là! ou plus là =D";
+        if($age < 0 || $age >130){
+            echo "Veuillez entrer un age valide";
             return;
         }
         if ($age >= 18) {

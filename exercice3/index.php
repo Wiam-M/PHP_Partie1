@@ -10,8 +10,8 @@
     <h3>Exercice 3: Créez une variable age. Afficher vous êtes majeur ou vous êtes mineur en fonction de l'âge.</h3>
     <?php
     function displayMajorOrMinor($age){
-        if($age < 0 || $age >200){
-            echo "Vous êtes peut etre pas là! ou plus là =D";
+        if($age < 0 || $age >120){
+            echo "Veuillez entrer un age valide";
             return;
         }
         if ($age >= 18) {
@@ -21,7 +21,7 @@
             echo "Vous êtes encore mineur :) ";
         }
     };
-    displayMajorOrMinor(25)
+    displayMajorOrMinor(26)
     ?>
 </body>
 </html>
